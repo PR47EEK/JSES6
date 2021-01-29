@@ -25,3 +25,7 @@ console.log(result3);
 
 const result4 = numbers.findIndex((x) => x > 10);
 console.log(result4);
+
+import emojipedia from "./emojipedia";
+
+console.log(emojipedia.map((content) => content.meaning.substring(0, 100)));
